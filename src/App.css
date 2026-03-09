@@ -297,9 +297,9 @@ body {
 }
 
 .settings-container {
-  width: 100vw;
+  min-width: 82.5vw;
   height: 100vh;
-  background: #1e293b;
+  background: #ebebed;
   font-family:
     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
     sans-serif;
@@ -316,6 +316,7 @@ body {
 .settings-content {
   background: white;
   border-radius: 16px;
+  border: 5px solid rgb(144, 142, 142);
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   max-width: 900px;
@@ -429,9 +430,9 @@ body {
   justify-content: center;
   align-items: center;
   padding: 40px;
-  background: #1e293b;
-  min-height: 100vh;
-  min-width: 100vw;
+  background: #ebebed;
+  min-height: 90vh;
+  min-width: 82.5vw;
 }
 .product-title {
   display: flex;

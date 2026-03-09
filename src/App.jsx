@@ -4,7 +4,7 @@ import Header from "./Components/Header";
 import Sidebar from "./Components/Sidebar";
 import Home from "./Components/Home";
 import Settings from "./Components/Settings";
-import Product from "./Product";
+import Product from "./Components/Product";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
